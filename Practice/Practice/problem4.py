@@ -10,6 +10,7 @@ def squareArea(sideLength) :
    if sideLength == 1 :
       return 1
    else :
+      pass
       return 2 * (sideLength - 1) + squareArea(sideLength - 1)
    
 print(squareArea(3))
